@@ -1,0 +1,145 @@
+ @import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+
+body{
+  padding-top: 60px;
+
+}
+
+.navbar-custom{
+	background-color: #ffff;
+    color: #000000;
+	
+}
+#intro {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  height: 100%;
+min-height: 400px;
+color: #1409a5;
+}
+#intro h2 {
+    font-size: 30px;
+}
+
+#intro hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#intro h1 {
+  font-size: 0.95rem;
+}
+
+#intro p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  #intro p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #intro {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #intro h1 {
+    font-size: 3rem;
+  }
+  img{
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #intro h1 {
+    font-size: 3rem;
+
+  }
+  img{
+    min-height: 400px;
+  }
+}
+#brandname{
+    color: #1409a5;
+    font-family: cursive;
+}
+
+nav ul li a {
+    color: blue;
+}
+img{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 50px, 50px,50px, 0px;
+    ma
+    text-align: center;
+    
+}
+
+#aboutme{
+    background-color: #1409a5;
+}
+#tasks{
+    color: #1409a5;
+}
+.card{
+    background-color: #ffffff;
+    color: #1409a5;
+}
+.card a {
+    color: #1409a5;
+}
+#skills{
+    color: #1409a5;
+}
+#skills .card{
+    background-color: #1409a5;
+}
+#footer{
+    background-color: #1409a5;
+}
+#social{
+  text-align: center;
+}
+ul {
+    overflow: auto;
+}
+ 
+ul li {
+    list-style-type: none;
+}
+ 
+ul li a i {
+     background: #ef147b;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+    display: inline;
+}
+.fa-facebook {
+    background:#3b5998
+} 
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.fa-instagram{
+   background: #ef147b;
+}
+ul li a i:hover {
+    opacity: .7;
+}
